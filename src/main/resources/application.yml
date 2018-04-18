@@ -1,0 +1,21 @@
+name: springboot  
+context: 
+  listener: 
+    classes: com.l10.listener.Mylistenser
+#  initializer: 
+#    classes: com.l11.applicationContextInitilizer.MyApplicationContextInitilizer  
+jdbc:
+    url: default
+utf-8: false
+tomcat:
+      host: 8080
+      ip: 192.1792
+      port: 8080
+local:
+     ip: 192.168.1.1
+     port: 8080
+     name: this is ${name}
+     
+ds:
+  a: 192.168.1.2
+  b: 8081
