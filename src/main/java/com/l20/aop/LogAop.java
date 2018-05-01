@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class LogAop {
-	@Before("execution") //织入
+	@Before("execution(* com.l2..*.*(..))") //织入
 	public void log(){
 		System.out.println("method log");
 	}

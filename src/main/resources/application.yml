@@ -1,4 +1,7 @@
-name: springboot  
+name: springboot 
+#spring: 
+#  aop: 
+#    proxy-target-class: true 
 context: 
   listener: 
     classes: com.l10.listener.Mylistenser
